@@ -1,0 +1,43 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style> body {background-color:yellow</style>
+</head>
+<body align="center">
+<h1><b><i>Cricket Batting Trial</i></b></h1>
+<br>
+
+<h3>Personal details</h3>
+<form action="mailto:satyamworks20@gmail.com" method="POST" enctype="text/plain"> 
+<div><b>NAME:</B> <input type="text" name="your name"><BR>
+<b> AGE:</b> <input type="number" name="your age"><br>
+<b> DOB:</B> <input type="date" name="date of birth"><br>
+<b> MAIL:</b> <input type="email" name="your mail"><br><br></div>
+<b>GENDER<br></b> <input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female<br> <input type="radio" name="gender" value="others">Others<br>
+<br><h3>Professional Details</h3><br>
+<b> Batting Order:</b> <input type="checkbox" name="batting_type" value="opener">Opener <input type="checkbox" name="batting_type" value="Middle_order">Middle order <input type="checkbox" name="batting_type" value="Finisher">Finisher<br>
+<b> Batting Style:</b> <input type="radio" name="bat_style" value="right">Right Handed <br>
+<input type="radio" name="bat_style" value="Left">Left Handed <br>
+<h3>Name of your favourite batsmen</h3><br>
+<input type="text" name="fav" >
+<br><br>
+<input type="submit" value="Submit"> 
+</form>
+
+
+</body>
+</html>
